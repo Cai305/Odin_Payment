@@ -1,0 +1,7 @@
+{
+  "name": "odin-payment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
