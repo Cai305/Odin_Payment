@@ -1,17 +1,138 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title  size="small">MC SINTHUMULE</ion-title>   
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-grid>
+  <ion-row>
+
+    <ion-col size="2">
+      <ion-avatar>
+        <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+      </ion-avatar>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-label>
+        <p>Total Ballance</p>
+        <h2>R5000.00</h2>
+      </ion-label>
+    </ion-col>
+
+  </ion-row>
+</ion-grid>
+
+<!-- Grid buttons Send,Receive and cards  -->
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button color="primary"><ion-icon name="arrow-up-circle-outline"></ion-icon></ion-button>
+      <ion-label>
+        <p>Send</p>
+      </ion-label>
+    </ion-col>
+    <ion-col>
+      <ion-button color="primary"><ion-icon name="arrow-down-circle-outline"></ion-icon></ion-button>
+      <ion-label>
+        <p>Receive</p>
+      </ion-label>
+    </ion-col>
+    <ion-col>
+      <ion-button color="primary"><ion-icon name="card-outline"></ion-icon></ion-button>
+      <ion-label>
+        <p>Cards</p>
+      </ion-label>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+<!-- Today or recent transactions  -->
+
+<ion-list>
+  <ion-list-header>
+    Today's Transactions
+  </ion-list-header>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>Finn</h2>
+      <p>24-june-2021</p>
+      <h3>-R49.00</h3>
+    </ion-label>
+  </ion-item>
+  
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>Han</h2>
+      <p>24-june-2021</p>
+      <h3>+R49.00</h3>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+
+<!-- Yesterday's transactions  -->
+<ion-list>
+  <ion-list-header>
+    Yesterday Transactions
+  </ion-list-header>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>Poe</h2>
+      <h3>New Ride</h3>
+      <p>24-june-2021</p>
+      <h3>-R49.00</h3>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>Ben</h2>
+      <p>24-june-2021</p>
+      <h3>-R49.00</h3>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>Leia</h2>
+      <p>24-june-2021</p>
+      <h3>+R49.00</h3>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>Yoda</h2>
+      <p>24-june-2021</p>
+      <h3>-R49.00</h3>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+
 </ion-content>
